@@ -1,0 +1,16 @@
+introduction-to-imap-framework
+welcome
+primary-objectives
+unified-environments-for-streamlined-analysis
+unifying-the-analysis-outputs
+considerations-for-incompatibility
+imap-part01
+imap-part02
+imap-part03
+imap-part04
+imap-part05
+imap-part06
+imap-part07
+imap-part08
+imap-github-repos
+session-information

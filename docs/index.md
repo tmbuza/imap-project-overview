@@ -1,0 +1,66 @@
+--- 
+title: "<big>IMAP:</big> Integrated Microbiome Analysis Pipelines"
+subtitle: "End-to-End Practical User Guides Using R, Python and Snakemake Workflows"
+date:
+- <b>2024-02-12</b>
+author: Teresia Mrema-Buza
+site: bookdown::bookdown_site
+documentclass: book
+css: style.css
+csl: 
+  - library/apa.csl
+bibliography:
+  - library/packages.bib
+  - library/references.bib
+  - library/imap.bib
+citation_package:
+  - natbib
+  - biblatex
+  - amsplain
+url: https://microbiome.complexdatainsights.com
+cover-image: images/cover.png
+email_address: "tmbuza@complexdatainsights.com"
+github-repo: tmbuza/imap-ebooks-project
+biblio-style: apalike
+description: |
+  | This part will be added before release.
+---
+
+
+
+
+<!-- # Google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+
+<!-- # CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+# Welcome to Microbiome Practical User Guides {-}
+<!-- <a href=""><img src="images/cover.png" alt="Book cover" width="100%" style="padding: 30px 0px 30px 0px; float: none;"/></a> -->
+Microbiome data analysis is an inquiry-driven approach aimed at unraveling the intricate microbial composition within a given sample. By asking targeted questions, we embark on a journey to uncover the hidden insights encoded in microbiome data. In the Systematic Microbiome Data Analytics (SMDA) Practical User Guide series, we go beyond traditional analysis methods, providing practical guides that empower researchers to delve deeper into the vast realm of microbiome analysis. Our mission is to transform complex data into actionable knowledge, driving the understanding of microbial communities to new frontiers.
+
+As we embark on this ongoing project, we divide the eBook into multiple standalone parts, each dedicated to a comprehensive exploration of distinct facets of microbiome analysis. These parts serve as valuable resources, equipping researchers with the tools and insights to navigate the intricacies of microbial community dynamics.
+
+Through the SMDA series, we aim to unravel the role of microorganisms in disease, health, and their impact on the environment. By integrating cutting-edge techniques and methodologies, we strive to provide integrated solutions for gaining a holistic understanding of microbial community biodiversity.
+
+Join us in this exciting journey of discovery as we unlock the mysteries concealed within microbiome data. Together, let's embrace the challenges and opportunities that lie ahead in the fascinating realm of microbiome data analysis.
+
+## License {-}
+The online versions of these guides are freely available and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license. This means that you are free to share them as they are, without making any modifications or using them for commercial purposes.
+
+A minimal code that builds each guide is available via the link presented on [GitHub Repos](https://microbiome.complexdatainsights.com/appendices.html#imap-repos). If you are interested in obtaining a more detailed copy, you can purchase chapter-specific guides from the [CDI Online Store](https://complexdatainsights.com/shop).
+
+By providing the guide repositories under a Creative Commons license, we continue to encourage the dissemination of knowledge and the accessibility of valuable resources for the benefit of the scientific community and beyond. We hope that this series inspires further exploration and advancements in the field of microbiome data analysis.
+
+> Please note that the specific licensing terms and conditions may be found in the detailed license agreement provided with the guides.
+
+
+
