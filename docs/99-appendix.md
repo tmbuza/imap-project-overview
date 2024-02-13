@@ -120,7 +120,10 @@ if (!dir.exists("resources")) {
   dir.create("resources")
 }
 
-# Save the session information to a text file
-writeLines(info, "resources/session_info.txt")
+# Save the session information to a text file without line numbers
+cat(info, file = "resources/session_info.txt", sep = "\n")
 ```
+
+> For a detailed overview of the tools and versions suitable for this guide, I encourage you to explore the session information saved in the accompanying text file named `resources/session_info.txt`,
+
 

@@ -1,5 +1,22 @@
 
-# automatically create a bib database for R packages
+# Install basic bookdown pkgs and automatically create a bib database
+if (!require('base')) {
+  install.packages('base', dependencies = TRUE)
+}
+
+if (!require('bookdown')) {
+  install.packages('bookdown', dependencies = TRUE)
+}
+
+if (!require('knitr')) {
+  install.packages('knitr', dependencies = TRUE)
+}
+
+if (!require('rmarkdown')) {
+  install.packages('rmarkdown', dependencies = TRUE)
+}
+
+
 knitr::write_bib(c(.packages(), 'base','bookdown', 'knitr','rmarkdown'), 'library/packages.bib')
 
 knitr::opts_chunk$set(

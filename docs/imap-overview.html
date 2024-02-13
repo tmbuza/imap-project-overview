@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines</title>
+<title>IMAP Overview | IMAP: Integrated Microbiome Analysis Pipelines</title>
 <meta name="author" content="Teresia Mrema-Buza">
-<meta name="description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta name="description" content="IMAP, primarily denoting Integrated Microbiome Analysis Pipelines, encompasses over eight standalone GitHub repositories, each prefixed with ‘imap-.’ This framework provides a systematic approach...">
 <meta name="generator" content="bookdown 0.37 with bs4_book()">
-<meta property="og:title" content="7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta property="og:title" content="IMAP Overview | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://tmbuza.github.io/imap-project-overview/imap-part07.html">
+<meta property="og:url" content="https://tmbuza.github.io/imap-project-overview/imap-overview.html">
 <meta property="og:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
-<meta property="og:description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta property="og:description" content="IMAP, primarily denoting Integrated Microbiome Analysis Pipelines, encompasses over eight standalone GitHub repositories, each prefixed with ‘imap-.’ This framework provides a systematic approach...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines">
-<meta name="twitter:description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta name="twitter:title" content="IMAP Overview | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="twitter:description" content="IMAP, primarily denoting Integrated Microbiome Analysis Pipelines, encompasses over eight standalone GitHub repositories, each prefixed with ‘imap-.’ This framework provides a systematic approach...">
 <meta name="twitter:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
 <li><a class="" href="index.html">Microbiome Explorer’s Practical User Guides</a></li>
 <li><a class="" href="license.html">License</a></li>
 <li class="book-part">GENERAL OVERVIEW</li>
-<li><a class="" href="imap-overview.html">IMAP Overview</a></li>
+<li><a class="active" href="imap-overview.html">IMAP Overview</a></li>
 <li><a class="" href="mission-and-vision.html">Mission and Vision</a></li>
 <li><a class="" href="acknowledgements.html">Acknowledgements</a></li>
 <li><a class="" href="dedication.html">Dedication</a></li>
@@ -97,7 +97,7 @@
 <li class="book-part">IMAP-PART 06</li>
 <li><a class="" href="imap-part06.html"><span class="header-section-number">6</span> Microbial profiling using QIIME2</a></li>
 <li class="book-part">IMAP-PART 07</li>
-<li><a class="active" href="imap-part07.html"><span class="header-section-number">7</span> Data preprocessing</a></li>
+<li><a class="" href="imap-part07.html"><span class="header-section-number">7</span> Data preprocessing</a></li>
 <li class="book-part">IMAP-PART 08</li>
 <li><a class="" href="imap-part08.html"><span class="header-section-number">8</span> Data Exploration</a></li>
 <li class="book-part">APPENDIX</li>
@@ -111,40 +111,26 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="imap-part07" class="section level1" number="7">
-<h1>
-<span class="header-section-number">7</span> Data preprocessing<a class="anchor" aria-label="anchor" href="#imap-part07"><i class="fas fa-link"></i></a>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="imap-overview" class="section level1 unnumbered">
+<h1>IMAP Overview<a class="anchor" aria-label="anchor" href="#imap-overview"><i class="fas fa-link"></i></a>
 </h1>
-<div class="inline-figure"><img src="images/imap_part07.svg"></div>
-<p>Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include:</p>
-<ul>
-<li>A CSV (comma-separated values) or tab-delimited text files or a</li>
-<li>Phyloseq object which contains typically containing:
-<ul>
-<li>Sample metadata</li>
-<li>OTU or ASV abundance Ddta</li>
-<li>Taxonomy data</li>
-<li>Phylogenetic tree data</li>
-</ul>
-</li>
-</ul>
-<p>Performing necessary data cleaning steps to remove any irrelevant or problematic entries. This may involve removing duplicate entries, handling missing values, or addressing any formatting issues.</p>
-<p>A more detailed description is described in <a href="https://tmbuza.github.io/imap-data-processing/">IMAP-PART07</a></p>
+<p>IMAP, primarily denoting Integrated Microbiome Analysis Pipelines, encompasses over eight standalone GitHub repositories, each prefixed with ‘imap-.’ This framework provides a systematic approach to microbiome data analysis, extending beyond conventional methods.</p>
+<p>The book, titled ‘Systematic Microbiome Data Analysis: End-to-End User Guides,’ is a comprehensive resource suitable for readers at all proficiency levels. It offers a detailed, step-by-step approach to understanding and executing systematic analyses of microbiome data. The content guides users through the application of bioinformatics tools, their functionalities, and the integration of bioinformatics pipelines. It also explores visualization techniques, specifically utilizing R and Python, in addition to Snakemake Workflows and GitHub Actions.</p>
+<p>A central focus is placed on fostering reproducibility in microbiome data analysis, emphasizing best practices, standardized approaches, and robust tools to ensure the reliability and replicability of results. The guide instructs users on how to effectively document and share analysis pipelines, contributing to the advancement of the field.</p>
+<p>The incorporation of practical examples, real-world datasets, and visualization techniques using R and Python equips readers to confidently analyze intricate microbiome datasets. The integration of Snakemake Workflows and GitHub Actions not only streamlines analyses but also enhances efficiency by automating repetitive tasks.</p>
+<p>‘Systematic Microbiome Data Analysis: End-to-End User Guides’ serves as an exhaustive companion for researchers, scientists, and bioinformatics practitioners. It empowers readers to unravel the intricacies within microbiome data, leverage bioinformatics tools, implement reproducible workflows, and derive meaningful insights into the microbial world.</p>
 </div>
-
-
-
   <div class="chapter-nav">
-<div class="prev"><a href="imap-part06.html"><span class="header-section-number">6</span> Microbial profiling using QIIME2</a></div>
-<div class="next"><a href="imap-part08.html"><span class="header-section-number">8</span> Data Exploration</a></div>
+<div class="prev"><a href="license.html">License</a></div>
+<div class="next"><a href="mission-and-vision.html">Mission and Vision</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#imap-part07"><span class="header-section-number">7</span> Data preprocessing</a></li></ul>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#imap-overview">IMAP Overview</a></li></ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/00-imap-framework.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/00-imap-framework.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
+<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/00-preface.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/00-preface.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
         </ul>
 </div>
     </nav>

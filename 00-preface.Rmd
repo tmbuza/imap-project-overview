@@ -1,4 +1,6 @@
-# Preface {-}
+# (PART) GENERAL OVERVIEW {-}
+
+# IMAP Overview {-}
 
 IMAP, primarily denoting Integrated Microbiome Analysis Pipelines, encompasses over eight standalone GitHub repositories, each prefixed with 'imap-.' This framework provides a systematic approach to microbiome data analysis, extending beyond conventional methods.
 
@@ -15,25 +17,6 @@ The incorporation of practical examples, real-world datasets, and visualization 
 **Mission**: Our mission is to make microbiome data analysis accessible, user-friendly, and reproducible for researchers and practitioners alike. We aim to provide comprehensive resources and practical guidance to empower individuals in unlocking the secrets of the microbial world hidden within their data.
 
 **Vision**: Our vision is to foster a community of reproducible and transparent microbiome data analysis, where researchers can confidently apply standardized methods and share their workflows, enabling collaboration and advancing scientific discoveries. We strive to *bridge the gap between bioinformatics and microbiome research*, equipping users with the tools and knowledge to navigate the complexities of data analysis in a robust and efficient manner.
-
-
-# Motivation {-}
-
-Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within the microbiome data analysis community, I was inspired to write this book. My motivation stemmed from the bookdown package [@bookdown2021], which caught my attention as it builds upon the R Markdown package [@rmarkdown2018]. Drawing from my experience in a separate microbiome-related project [@TMBuza2019], I felt a deep desire to make a meaningful impact in this field by providing reproducible solutions.
-
-Through self-training and continuous learning, I have acquired a significant amount of knowledge since my last publication. My passion lies in creating visually appealing HTML user guides that transform complex data into actionable insights. This book is a culmination of that passion and the expertise I have gained along the way.Throughout my journey, two constant companions have been by my side: Google and ChatGPT. Google has been my go-to resource, enabling me to search for additional insights and solutions, expanding my knowledge in microbiome data analysis. Likewise, ChatGPT, an AI language model, has been a valuable companion, assisting me in refining my ideas and exploring new possibilities.
-
-With the shared goal of fostering reproducibility and driving impactful discoveries in microbiome research, I hope this book serves as a valuable resource for the users. Together, with the aid of technological advancements and a collaborative community, we can navigate the challenges of microbiome data analysis, unlock new knowledge, and make significant contributions to this fascinating field.
-
-While the book doesn't claim to be exhaustive, it encourages readers to explore additional solutions. With a shared goal of fostering reproducibility and impactful discoveries in microbiome research, this resource aims to support researchers, students, developers, trainers, and enthusiasts in navigating challenges and contributing to this dynamic field.
-
-## Collaboration Between Key Players {-}
-
-```{block, type="infoicon", echo=TRUE}
-> Bioinformaticians often aim for quick output and require the right tools, while biologists seek to analyze data for biological insights, relying on their expertise and hypotheses. This disparity in language and goals can impede collaboration and hinder progress.
-```
-
-This guide aims to foster collaboration by providing comprehensive user guides that are accessible to both bioinformaticians and biologists. It serves as a common platform where both groups can find the necessary tools and techniques for their respective goals. By aligning their language and understanding, we can facilitate effective communication, encourage collaborative efforts, and propel microbiome research to new heights.Please note that the book is currently a work in progress, and the chapters' status is indicated as "In-progress" in the table. You can click on the hyperlinked text to access the corresponding chapter or section.
 
 
 # Acknowledgements {-}
@@ -55,7 +38,11 @@ In addition to your professional pursuits, I want to express my deepest gratitud
 As we look forward to creating more shared moments, achieving new milestones, and embracing the unknown, I am filled with gratitude for your constant presence, understanding, forgiveness, and belief in me. With heartfelt appreciation and immeasurable love, your ever-devoted mother.
 
 
-# About the Author {-}
+# (PART) AUTHOR'S PERSPECTIVE {-}
+
+# Motivation and Dedication {-}
+
+## Author Experience {-}
 Teresia Mrema-Buza, Ph.D., is the founder and sole owner of Complex Data Insights (CDI), a single-member LLC registered in the state of Texas, USA. CDI specializes in providing practical user guides in ebook format, covering a wide range of topics including microbiome, bioinformatics, data science, and more. The ebooks offered by CDI are tailored to different proficiency levels, from beginners to advanced users, and are designed to provide step-by-step workflows and valuable insights for effective data analysis.
 
 Over the course of more than ten years, Teresia has worked in various higher learning institutions as a computational molecular biologist and bioinformatics researcher, particularly in microbiome. Furthermore, Teresia Mrema-Buza, Ph.D., has also immersed herself in the field of machine learning as it pertains to classifying microbiome data. Over the past eight years, she has extensively studied and applied machine learning techniques to effectively classify and analyze complex microbiome datasets. Her in-depth knowledge and practical experience in this intersection of machine learning and microbiome research have enabled her to develop innovative approaches and algorithms for extracting valuable insights from microbiome data using advanced machine learning methodologies. Teresia's expertise in this area further enhances her ability to provide valuable guidance and practical user guides in the realm of microbiome data analysis.
@@ -64,3 +51,21 @@ Currently, Teresia leads a self-sponsored project called the Systematic Microbio
 
 Teresia's work is widely accessible to the public, either through GitHub, GH-pages, or the CDI website. Her dedication to advancing the field of microbiome research through open access resources demonstrates her commitment to fostering collaboration and knowledge sharing. You can learn more about Teresia and her work at Complex Data Insights (CDI). 
 
+
+## Author Motivation {-}
+
+Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within the microbiome data analysis community, I was inspired to write this book. My motivation stemmed from the bookdown package [@bookdown2021], which caught my attention as it builds upon the R Markdown package [@rmarkdown2018]. Drawing from my experience in a separate microbiome-related project [@TMBuza2019], I felt a deep desire to make a meaningful impact in this field by providing reproducible solutions.
+
+Through self-training and continuous learning, I have acquired a significant amount of knowledge since my last publication. My passion lies in creating visually appealing HTML user guides that transform complex data into actionable insights. This book is a culmination of that passion and the expertise I have gained along the way.Throughout my journey, two constant companions have been by my side: Google and ChatGPT. Google has been my go-to resource, enabling me to search for additional insights and solutions, expanding my knowledge in microbiome data analysis. Likewise, ChatGPT, an AI language model, has been a valuable companion, assisting me in refining my ideas and exploring new possibilities.
+
+With the shared goal of fostering reproducibility and driving impactful discoveries in microbiome research, I hope this book serves as a valuable resource for the users. Together, with the aid of technological advancements and a collaborative community, we can navigate the challenges of microbiome data analysis, unlock new knowledge, and make significant contributions to this fascinating field.
+
+While the book doesn't claim to be exhaustive, it encourages readers to explore additional solutions. With a shared goal of fostering reproducibility and impactful discoveries in microbiome research, this resource aims to support researchers, students, developers, trainers, and enthusiasts in navigating challenges and contributing to this dynamic field.
+
+## Author Dedication {-}
+```{block, type="infoicon", echo=TRUE}
+> Bioinformaticians often aim for quick output and require the right tools, while biologists seek to analyze data for biological insights, relying on their expertise and hypotheses. This disparity in language and goals can impede collaboration and hinder progress.
+```
+In a dedicated effort to advance collaboration and understanding between bioinformaticians and biologists, this work seeks to bridge the gap impeding progress in microbiome research. Recognizing the distinct objectives and linguistic disparities inherent in these two groups, the guide aspires to provide user-friendly and practical insights. While bioinformaticians prioritize swift outputs and tool proficiency, biologists delve into data analysis for biological insights driven by their expertise and hypotheses. This dichotomy can pose challenges to collaboration. The commitment is to establish a common platform by offering comprehensive user guides accessible to both bioinformaticians and biologists.
+
+The guide aims to act as a catalyst for collaborative efforts in microbiome research. By providing accessible user guides, the objective is to serve as a shared space where both bioinformaticians and biologists can discover tools and techniques aligned with their specific goals. The overarching aim is to break down communication barriers by harmonizing language and understanding. This endeavor strives to encourage effective communication, propel collaborative initiatives, and elevate microbiome research to new horizons. Importantly, the work is a dynamic commitment, with each chapter marked as "In-progress," offering readers a continuously improving and evolving resource.

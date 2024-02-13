@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines</title>
+<title>License | IMAP: Integrated Microbiome Analysis Pipelines</title>
 <meta name="author" content="Teresia Mrema-Buza">
-<meta name="description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta name="description" content="The online versions of these guides are freely available and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license. This means that you are free to...">
 <meta name="generator" content="bookdown 0.37 with bs4_book()">
-<meta property="og:title" content="7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta property="og:title" content="License | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://tmbuza.github.io/imap-project-overview/imap-part07.html">
+<meta property="og:url" content="https://tmbuza.github.io/imap-project-overview/license.html">
 <meta property="og:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
-<meta property="og:description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta property="og:description" content="The online versions of these guides are freely available and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license. This means that you are free to...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="7 Data preprocessing | IMAP: Integrated Microbiome Analysis Pipelines">
-<meta name="twitter:description" content="Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include: A CSV (comma-separated values) or tab-delimited text...">
+<meta name="twitter:title" content="License | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="twitter:description" content="The online versions of these guides are freely available and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license. This means that you are free to...">
 <meta name="twitter:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -74,7 +74,7 @@
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">Microbiome Explorer’s Practical User Guides</a></li>
-<li><a class="" href="license.html">License</a></li>
+<li><a class="active" href="license.html">License</a></li>
 <li class="book-part">GENERAL OVERVIEW</li>
 <li><a class="" href="imap-overview.html">IMAP Overview</a></li>
 <li><a class="" href="mission-and-vision.html">Mission and Vision</a></li>
@@ -97,7 +97,7 @@
 <li class="book-part">IMAP-PART 06</li>
 <li><a class="" href="imap-part06.html"><span class="header-section-number">6</span> Microbial profiling using QIIME2</a></li>
 <li class="book-part">IMAP-PART 07</li>
-<li><a class="active" href="imap-part07.html"><span class="header-section-number">7</span> Data preprocessing</a></li>
+<li><a class="" href="imap-part07.html"><span class="header-section-number">7</span> Data preprocessing</a></li>
 <li class="book-part">IMAP-PART 08</li>
 <li><a class="" href="imap-part08.html"><span class="header-section-number">8</span> Data Exploration</a></li>
 <li class="book-part">APPENDIX</li>
@@ -111,40 +111,31 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="imap-part07" class="section level1" number="7">
-<h1>
-<span class="header-section-number">7</span> Data preprocessing<a class="anchor" aria-label="anchor" href="#imap-part07"><i class="fas fa-link"></i></a>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="license" class="section level1 unnumbered">
+<h1>License<a class="anchor" aria-label="anchor" href="#license"><i class="fas fa-link"></i></a>
 </h1>
-<div class="inline-figure"><img src="images/imap_part07.svg"></div>
-<p>Processing the OTU (Operational Taxonomic Unit) table is an important step in preparing data for downstream analysis. Prerequisite may include:</p>
-<ul>
-<li>A CSV (comma-separated values) or tab-delimited text files or a</li>
-<li>Phyloseq object which contains typically containing:
-<ul>
-<li>Sample metadata</li>
-<li>OTU or ASV abundance Ddta</li>
-<li>Taxonomy data</li>
-<li>Phylogenetic tree data</li>
-</ul>
-</li>
-</ul>
-<p>Performing necessary data cleaning steps to remove any irrelevant or problematic entries. This may involve removing duplicate entries, handling missing values, or addressing any formatting issues.</p>
-<p>A more detailed description is described in <a href="https://tmbuza.github.io/imap-data-processing/">IMAP-PART07</a></p>
+<p>The online versions of these guides are freely available and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND) license. This means that you are free to share them as they are, without making any modifications or using them for commercial purposes.</p>
+<p>A minimal code that builds each guide is available via the link presented on <a href="https://microbiome.complexdatainsights.com/appendices.html#imap-repos">GitHub Repos</a>. If you are interested in obtaining a more detailed copy, you can purchase chapter-specific guides from the <a href="https://complexdatainsights.com/shop">CDI Online Store</a>.</p>
+<p>By providing the guide repositories under a Creative Commons license, we continue to encourage the dissemination of knowledge and the accessibility of valuable resources for the benefit of the scientific community and beyond. We hope that this series inspires further exploration and advancements in the field of microbiome data analysis.</p>
+<blockquote>
+<p>Please note that the specific licensing terms and conditions may be found in the detailed license agreement provided with the guides.</p>
+</blockquote>
+
 </div>
 
 
 
   <div class="chapter-nav">
-<div class="prev"><a href="imap-part06.html"><span class="header-section-number">6</span> Microbial profiling using QIIME2</a></div>
-<div class="next"><a href="imap-part08.html"><span class="header-section-number">8</span> Data Exploration</a></div>
+<div class="prev"><a href="index.html">Microbiome Explorer’s Practical User Guides</a></div>
+<div class="next"><a href="imap-overview.html">IMAP Overview</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#imap-part07"><span class="header-section-number">7</span> Data preprocessing</a></li></ul>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#license">License</a></li></ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/00-imap-framework.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/00-imap-framework.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
+<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/index.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/index.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
         </ul>
 </div>
     </nav>

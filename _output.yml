@@ -1,32 +1,3 @@
-bookdown::gitbook:
-  css: style.css
-  number_sections: true
-  split_by: chapter
-  config:
-    toc:
-      before: |
-        <li><a href="https://books.complexdatainsights.com/">GitHub Pages</a></li>
-      after: |
-        <li><a href="https://complexdatainsights.com">Supported by CDI</a></li>
-    edit: https://github.com/tmbuza/imap-ebooks-project/edit/main/%s
-    download: ["pdf", "epub"]
-  favicon: "favicon.ico"
-  footnotes_inline: false
-  split_bib: true
-  repo:
-    base: https://github.com/tmbuza/imap-ebooks-project.git
-    branch: gh-pages
-    icon: "fas fa-air-freshener"
-
-# bookdown::pdf_book:
-#   includes:
-#     in_header: preamble.tex
-#   latex_engine: xelatex
-#   citation_package: natbib
-#   keep_tex: yes
-
-# bookdown::epub_book: default
-
 bookdown::bs4_book:
   css: style.css
   split_by: chapter

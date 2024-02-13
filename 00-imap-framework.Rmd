@@ -1,10 +1,8 @@
-# (PART) INTRODUCTORY SECTION {-}
+# (PART) IMAP FRAMEWORK {-}
 
-# Introduction to IMAP Framework
+# Introduction to IMAP Framework {-}
 
 URL: https://github.com/datainsights/imap-project-overview/
-
-## Welcome
 
 Welcome to the IMAP ("Integrated Microbiome Analysis Pipelines") framework—a meticulously crafted structure empowering researchers, scientists, developers, and enthusiasts in conducting thorough analyses of intricate microbiome data. Each chapter within IMAP stands as an independent GitHub repository (repo), offering a dedicated space for focused exploration and understanding.
 

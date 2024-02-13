@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Motivation | IMAP: Integrated Microbiome Analysis Pipelines</title>
+<title>C Session Information | IMAP: Integrated Microbiome Analysis Pipelines</title>
 <meta name="author" content="Teresia Mrema-Buza">
-<meta name="description" content="Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within...">
-<meta name="generator" content="bookdown 0.36 with bs4_book()">
-<meta property="og:title" content="Motivation | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="description" content="Reproducibility relies on the ability to precisely recreate the working environment, and session information serves as a vital reference to achieve this consistency. Here we record details about...">
+<meta name="generator" content="bookdown 0.37 with bs4_book()">
+<meta property="og:title" content="C Session Information | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://microbiome.complexdatainsights.com/motivation.html">
+<meta property="og:url" content="https://microbiome.complexdatainsights.com/session-information-1.html">
 <meta property="og:image" content="https://microbiome.complexdatainsights.com/images/cover.png">
-<meta property="og:description" content="Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within...">
+<meta property="og:description" content="Reproducibility relies on the ability to precisely recreate the working environment, and session information serves as a vital reference to achieve this consistency. Here we record details about...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Motivation | IMAP: Integrated Microbiome Analysis Pipelines">
-<meta name="twitter:description" content="Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within...">
+<meta name="twitter:title" content="C Session Information | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="twitter:description" content="Reproducibility relies on the ability to precisely recreate the working environment, and session information serves as a vital reference to achieve this consistency. Here we record details about...">
 <meta name="twitter:image" content="https://microbiome.complexdatainsights.com/images/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -74,13 +74,14 @@
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html">Welcome to Microbiome Practical User Guides</a></li>
+<li class="book-part">GENERAL OVERVIEW</li>
 <li><a class="" href="preface.html">Preface</a></li>
 <li><a class="" href="mission-and-vision.html">Mission and Vision</a></li>
-<li><a class="active" href="motivation.html">Motivation</a></li>
 <li><a class="" href="acknowledgements.html">Acknowledgements</a></li>
 <li><a class="" href="dedication.html">Dedication</a></li>
-<li><a class="" href="about-the-author.html">About the Author</a></li>
-<li class="book-part">INTRODUCTORY SECTION</li>
+<li class="book-part">AUTHOR’S PERSPECTIVE</li>
+<li><a class="" href="motivation-and-dedication.html">Motivation and Dedication</a></li>
+<li class="book-part">IMAP FRAMEWORK</li>
 <li><a class="" href="introduction-to-imap-framework.html"><span class="header-section-number">1</span> Introduction to IMAP Framework</a></li>
 <li class="book-part">IMAP-PART 01</li>
 <li><a class="" href="imap-part01.html"><span class="header-section-number">2</span> IMAP Toolkit: Essential Requirements</a></li>
@@ -101,6 +102,8 @@
 <li class="book-part">APPENDIX</li>
 <li><a class="" href="imap-github-repos.html"><span class="header-section-number">A</span> IMAP GitHub Repos</a></li>
 <li><a class="" href="session-information.html"><span class="header-section-number">B</span> Session Information</a></li>
+<li><a class="active" href="session-information-1.html"><span class="header-section-number">C</span> Session Information</a></li>
+<li><a class="" href="session-information-2.html"><span class="header-section-number">D</span> Session Information</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -109,43 +112,23 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="motivation" class="section level1 unnumbered">
-<h1>Motivation<a class="anchor" aria-label="anchor" href="#motivation"><i class="fas fa-link"></i></a>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="session-information-1" class="section level1" number="12">
+<h1>
+<span class="header-section-number">C</span> Session Information<a class="anchor" aria-label="anchor" href="#session-information-1"><i class="fas fa-link"></i></a>
 </h1>
-<p>Data analysis in microbiome studies can be a costly endeavor, often amounting to hundreds of thousands of dollars or more when using incorrect approaches. Recognizing the need for support within the microbiome data analysis community, I was inspired to write this book. My motivation stemmed from the bookdown package<span class="citation"><sup>[1]</sup></span>, which caught my attention as it builds upon the R Markdown package<span class="citation"><sup>[2]</sup></span>. Drawing from my experience in a separate microbiome-related project<span class="citation"><sup>[3]</sup></span>, I felt a deep desire to make a meaningful impact in this field by providing reproducible solutions.</p>
-<p>Through self-training and continuous learning, I have acquired a significant amount of knowledge since my last publication. My passion lies in creating visually appealing HTML user guides that transform complex data into actionable insights. This book is a culmination of that passion and the expertise I have gained along the way.Throughout my journey, two constant companions have been by my side: Google and ChatGPT. Google has been my go-to resource, enabling me to search for additional insights and solutions, expanding my knowledge in microbiome data analysis. Likewise, ChatGPT, an AI language model, has been a valuable companion, assisting me in refining my ideas and exploring new possibilities.</p>
-<p>With the shared goal of fostering reproducibility and driving impactful discoveries in microbiome research, I hope this book serves as a valuable resource for the users. Together, with the aid of technological advancements and a collaborative community, we can navigate the challenges of microbiome data analysis, unlock new knowledge, and make significant contributions to this fascinating field.</p>
-<p>While the book doesn’t claim to be exhaustive, it encourages readers to explore additional solutions. With a shared goal of fostering reproducibility and impactful discoveries in microbiome research, this resource aims to support researchers, students, developers, trainers, and enthusiasts in navigating challenges and contributing to this dynamic field.</p>
-<div id="collaboration-between-key-players" class="section level2 unnumbered">
-<h2>Collaboration Between Key Players<a class="anchor" aria-label="anchor" href="#collaboration-between-key-players"><i class="fas fa-link"></i></a>
-</h2>
-<div class="infoicon">
-<blockquote>
-<p>
-Bioinformaticians often aim for quick output and require the right
-tools, while biologists seek to analyze data for biological insights,
-relying on their expertise and hypotheses. This disparity in language
-and goals can impede collaboration and hinder progress.
-</p>
-</blockquote>
-</div>
-<p>This guide aims to foster collaboration by providing comprehensive user guides that are accessible to both bioinformaticians and biologists. It serves as a common platform where both groups can find the necessary tools and techniques for their respective goals. By aligning their language and understanding, we can facilitate effective communication, encourage collaborative efforts, and propel microbiome research to new heights.Please note that the book is currently a work in progress, and the chapters’ status is indicated as “In-progress” in the table. You can click on the hyperlinked text to access the corresponding chapter or section.</p>
-</div>
+<p>Reproducibility relies on the ability to precisely recreate the working environment, and session information serves as a vital reference to achieve this consistency. Here we record details about the R environment, package versions, and system settings of the computing environment at the time of analysis.</p>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="mission-and-vision.html">Mission and Vision</a></div>
-<div class="next"><a href="acknowledgements.html">Acknowledgements</a></div>
+<div class="prev"><a href="session-information.html"><span class="header-section-number">B</span> Session Information</a></div>
+<div class="next"><a href="session-information-2.html"><span class="header-section-number">D</span> Session Information</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#motivation">Motivation</a></li>
-<li><a class="nav-link" href="#collaboration-between-key-players">Collaboration Between Key Players</a></li>
-</ul>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#session-information-1"><span class="header-section-number">C</span> Session Information</a></li></ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/00-preface.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/00-preface.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
+<li><a id="book-source" href="https://github.com/tmbuza/imap-ebooks-project.git/blob/gh-pages/99-appendix.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/tmbuza/imap-ebooks-project.git/edit/gh-pages/99-appendix.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -158,7 +141,7 @@ and goals can impede collaboration and hinder progress.
     <div class="row">
       <div class="col-12 col-md-6 mt-3">
         <p><strong><u><a class="text-light" href="https://microbiome.complexdatainsights.com"><big>IMAP:</big> Integrated Microbiome Analysis Pipelines</a></u></strong>: End-to-End Practical User Guides Using R, Python and Snakemake Workflows</p>
-<br><p>Authored by Teresia Mrema-Buza, Last updated: <b>2024-02-12</b>.</p>
+<br><p>Authored by Teresia Mrema-Buza, Last updated: <b>2024-02-13</b>.</p>
 <br>
 </div>
       <div class="col-12 col-md-6 mt-3">
