@@ -28,20 +28,6 @@ description: |
 
 ```{r lockfile, include=FALSE}
 source("_common.R")
-
-renv::use("compiler", 
-          "bookdown", 
-          "fastmap", 
-          "cli", 
-          "htmltools", 
-          "tools", 
-          "rstudioapi", 
-          "yaml", 
-          "rmarkdown", 
-          "knitr", 
-          "xfun", 
-          "digest", 
-          "rlang")
 ```
 
 
