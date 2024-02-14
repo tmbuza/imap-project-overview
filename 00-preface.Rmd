@@ -28,19 +28,21 @@ The incorporation of practical examples, real-world datasets, and visualization 
 
 # Acknowledgements {-}
 
-I extend my sincere gratitude to my previous employers, Mississippi State University and Penn State University, for granting me the opportunity to serve as a computational molecular biologist and computational scientist, respectively, in the field of omics. My most recent project, supervised by Dr. Vivek Kapur at Penn State University, focused on bushmeat microbiome bioinformatics. During this endeavor, my responsibilities included the analysis of 16S rRNA gene sequencing data and the development of bioinformatics resources. I also want to acknowledge the collaborative spirit received from my husband, Professor Joram Buza, and his unwavering encouragement that fuels my dedication to the captivating realm of omics bioinformatics.
+I extend my sincere gratitude to my previous employers, Mississippi State University and Penn State University, for granting me the opportunity to serve as a computational molecular biologist and computational scientist, respectively, in the field of omics. My most recent project, supervised by Dr. Vivek Kapur at Penn State University, focused on bushmeat microbiome bioinformatics. During this endeavor, my responsibilities included the analysis of 16S rRNA gene sequencing data and the development of bioinformatics resources. 
 
-Throughout my professional journey, Google and ChatGPT have been steadfast companions, assisting me in seeking insights, refining ideas, and exploring new possibilities. Their consistent support has been instrumental in my ongoing pursuit of knowledge and innovation in omics bioinformatics.
+I extend my sincere appreciation to Google, a steadfast companion throughout my professional journey, and more recently, to ChatGPT, which has played a vital role in assisting me as I seek additional insights, fine-tune ideas, and explore new possibilities along my career path.
+
+I express my gratitude to my husband, Professor Joram Buza, for introducing me to the proteomics field at Mississippi State University. His initial insights played a pivotal role in sparking my passion for computational roles within omics fields. Although his direct contribution to my academic and professional journey may be limited, his initial belief in me was instrumental in fueling my dedication to the captivating realm of omics, which extended later into the domain of microbiome bioinformatics.
 
 Lastly, I express profound gratitude to my children, Joe, Janeth, and Steve. The creation of extensive guides of this nature, without financial support, presented significant challenges. Their unwavering support and love have been indispensable throughout this intricate journey. I am eternally thankful for the encouragement and support system they have provided me. My love for them knows no bounds.
 
 # Dedication {-}
 
-To my incredible children, Joe, Janeth, and Steve, this series of practical user guides is a heartfelt tribute to the unwavering support and invaluable financial assistance you've provided during challenging moments. Celebrating Joe's academic accomplishments as a computer science major and software engineer, Janeth's dedication to finance and her role as a Risk Analyst, and Steve's pursuits as a computer science major and dedication as a Business Analyst, each of you brings unique strengths that have profoundly shaped our family journey.
+To my incredible children, Joe, Janeth, and Steve, this series of practical user guides stands as a heartfelt tribute to the unwavering support and invaluable financial assistance you've provided during challenging moments. Celebrating Joe's academic accomplishments as a computer science major and software engineer, Janeth's dedication to finance and her role as a Risk Analyst, and Steve's pursuits as a computer science major and dedication as a Business Analyst, each of you brings unique strengths that have profoundly shaped our family journey.
 
 Beyond your professional pursuits, I want to express my deepest gratitude to Janeth and KiAndre for being dedicated and loving parents to my grandson Elijah. Your commitment to both family and career is truly admirable.
 
-As we look forward to creating more shared moments, achieving new milestones, and embracing the unknown together, my heart is filled with gratitude for your constant presence, understanding, and unwavering confidence in my endeavors. With heartfelt appreciation and immeasurable love, I remain your ever-devoted mother.
+As we anticipate creating more shared moments, achieving new milestones, and embracing the unknown together, my heart is filled with gratitude for your constant presence, understanding, and unwavering confidence in my endeavors. With heartfelt appreciation and immeasurable love, I remain your ever-devoted mother.
 
 
 # (PART) AUTHOR'S PERSPECTIVE {-}
