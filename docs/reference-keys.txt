@@ -1,6 +1,8 @@
+author-accomplishments-and-expertise
+imap-framework
 primary-objectives
-unified-environments-for-streamlined-analysis
-unifying-the-analysis-outputs
+environments-for-streamlined-analysis
+analysis-outputs
 considerations-for-incompatibility
 imap-part01
 imap-part02

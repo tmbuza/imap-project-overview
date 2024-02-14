@@ -1,6 +1,6 @@
 # (PART) IMAP FRAMEWORK {-}
 
-# Introduction to IMAP Framework {-}
+# Introduction to IMAP Framework {#imap-framework}
 
 URL: https://github.com/datainsights/imap-project-overview/
 
@@ -9,7 +9,7 @@ Welcome to the IMAP ("Integrated Microbiome Analysis Pipelines") framework—a m
 ## Primary objectives
 Our primary objectives revolve around reproducibility, clarity, and efficiency. We understand the challenges inherent in microbiome data analysis and aim to equip you with the tools and strategies necessary to navigate this complex landscape with confidence.
 
-## Unified Environments for Streamlined Analysis
+## Environments for Streamlined Analysis
 
 Microbiome data analysis encompasses a diverse set of tools and platforms, from R and Python for statistical analysis to Snakemake for workflow management, and GitHub Actions for continuous integration and deployment. To streamline this process and ensure reproducibility, we adopt a strategy of managing these tools within unified environments.
 
@@ -21,7 +21,7 @@ Microbiome data analysis encompasses a diverse set of tools and platforms, from 
 
 - **GitHub Actions for Continuous Integration and Deployment:** Learn how we utilize GitHub Actions to automate continuous integration and deployment processes. This ensures the consistent and automated testing, building, and deployment of our microbiome data analysis workflows, contributing to a more efficient and reliable development pipeline.
 
-## Unifying the Analysis Outputs
+## Analysis Outputs
 
 Outputs from RStudio, Jupyter Notebook, and Snakemake workflows converge in a final HTML report, serving as the culmination of our analytical efforts.
 
@@ -40,7 +40,7 @@ While advocating for a unified environment, we acknowledge that certain packages
 
 ![](images/imap_part01.svg)
 
-In this chapter, we embark on the practical journey of equipping you with the essential tools needed for efficient and reproducible microbiome data analysis. From installing fundamental software in R and Python to configuring workflow systems, Conda environments, and GitHub/GitHub Actions, this chapter provides a step-by-step demonstration. By the end of this guide, you'll have a well-configured toolkit ready for hands-on exploration and analysis in the fascinating realm of microbiome data. A more detailed description is described in [IMAP-PART 01](https://tmbuza.github.io/imap-software-requirements/)
+In this chapter, we embark on the practical journey of equipping you with the essential tools needed for efficient and reproducible microbiome data analysis. From installing fundamental software in R and Python to configuring workflow systems, Conda environments, and GitHub/GitHub Actions, this chapter provides a step-by-step demonstration. By the end of this guide, you'll have a well-configured toolkit ready for hands-on exploration and analysis in the fascinating realm of microbiome data. A more detailed description is described in [IMAP-PART 01](https://tmbuza.github.io/imap-essential-software/)
 
 
 # (PART) IMAP-PART 02 {-} 
