@@ -3,6 +3,7 @@ imap-framework
 primary-objectives
 environments-for-streamlined-analysis
 analysis-outputs
+snakemake-rule-graph-a-tool-for-transparency
 considerations-for-incompatibility
 imap-part01
 imap-part02
