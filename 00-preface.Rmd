@@ -1,6 +1,6 @@
-# (PART) GENERAL OVERVIEW {-}
+# (PART) IMAP PROJECT {-}
 
-# IMAP Overview {-}
+# About IMAP Project {-}
 
 IMAP, primarily denoting **Integrated Microbiome Analysis Pipelines**, encompasses over eight standalone GitHub repositories.' 
 
@@ -11,7 +11,7 @@ IMAP, primarily denoting **Integrated Microbiome Analysis Pipelines**, encompass
 <br>
 
 
-This framework provides a systematic approach to microbiome data analysis, extending beyond conventional methods. It offers a detailed, step-by-step approach to understanding and executing systematic analyses of microbiome data. The content guides users through the application of bioinformatics tools, their functionalities, and the integration of bioinformatics pipelines. It also explores visualization techniques, specifically utilizing R and Python, in addition to Snakemake Workflows and GitHub Actions.
+This project provides a systematic approach to microbiome data analysis, extending beyond conventional methods. It offers a detailed, step-by-step approach to understanding and executing systematic analyses of microbiome data. The content guides users through the application of bioinformatics tools, their functionalities, and the integration of bioinformatics pipelines. It also explores visualization techniques, specifically utilizing R and Python, in addition to Snakemake Workflows and GitHub Actions.
 
 A central focus is placed on fostering reproducibility in microbiome data analysis, emphasizing best practices, standardized approaches, and robust tools to ensure the reliability and replicability of results. The guide instructs users on how to effectively document and share analysis pipelines, contributing to the advancement of the field.
 
