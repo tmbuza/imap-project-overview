@@ -45,7 +45,7 @@ source("_common.R")
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
-# <big>Microbiome Explorer's Practical User Guides</big> {-#welcome-to-imap}
+# <u>IMAP-Overview</u>: Integrated Microbiome Practical User Guides {-#imap-overview}
 
 <br>
 <br>
@@ -55,7 +55,7 @@ source("_common.R")
 
 Greetings, fellow explorers! 
 
-Step into the captivating world of microbiome data analysis with our groundbreaking series, the Systematic Microbiome Data Analytics (SMDA) Practical User Guide. We extend a warm invitation to embark on a journey that transcends conventional analysis methods, empowering you with practical guides to unravel the complexities of microbial composition within any given sample.
+Step into the captivating world of microbiome data analysis with our groundbreaking series, the IMAP Practical User Guide. We extend a warm invitation to embark on a journey that transcends conventional analysis methods, empowering you with practical guides to unravel the complexities of microbial composition within any given sample.
 
 In the Microbiome Explorer's Practical User Guides, we've meticulously divided the eBook into standalone parts, each dedicated to comprehensively exploring different facets of microbiome analysis. These parts act as invaluable tools, arming researchers with the knowledge and insights to navigate the intricate dynamics of microbial communities.
 

@@ -1,0 +1,110 @@
+Project Tree
+.
+├── 00-preface.Rmd
+├── 01-imap-framework.Rmd
+├── 99-appendix.Rmd
+├── 999-references.Rmd
+├── 9999-footer.Rmd
+├── CNAME
+├── LICENSE
+├── README.md
+├── _bookdown.yml
+├── _common.R
+├── _output.yml
+├── bs4_template.html
+├── config
+│   └── config.yml
+├── dags
+│   ├── rulegraph.png
+│   └── rulegraph.svg
+├── docs
+│   ├── 00-imap-framework.md
+│   ├── 00-preface.md
+│   ├── 01-imap-framework.md
+│   ├── 404.html
+│   ├── 99-appendix.md
+│   ├── 999-references.md
+│   ├── 9999-footer.md
+│   ├── about-imap-project.html
+│   ├── about-the-author.html
+│   ├── acknowledgements.html
+│   ├── dags
+│   ├── dedication.html
+│   ├── images
+│   ├── imap-framework.html
+│   ├── imap-github-repos.html
+│   ├── imap-overview.html
+│   ├── imap-part01.html
+│   ├── imap-part02.html
+│   ├── imap-part03.html
+│   ├── imap-part04.html
+│   ├── imap-part05.html
+│   ├── imap-part06.html
+│   ├── imap-part07.html
+│   ├── imap-part08.html
+│   ├── index.html
+│   ├── index.md
+│   ├── introduction-to-imap-framework.html
+│   ├── libs
+│   ├── license.html
+│   ├── mission-and-vision.html
+│   ├── motivation-and-commitment.html
+│   ├── motivation-and-dedication.html
+│   ├── part-general-overview.html
+│   ├── preface.html
+│   ├── reference-keys.txt
+│   ├── references.html
+│   ├── search.json
+│   ├── session-information-1.html
+│   ├── session-information-2.html
+│   ├── session-information.html
+│   └── style.css
+├── images
+│   ├── RStudioIDE.png
+│   ├── bioinformatics.png
+│   ├── bkgd.png
+│   ├── cicd.png
+│   ├── coders.png
+│   ├── conda_list.png
+│   ├── cover.png
+│   ├── imap.png
+│   ├── imap_part00.png
+│   ├── imap_part01.svg
+│   ├── imap_part02.svg
+│   ├── imap_part03.svg
+│   ├── imap_part04.svg
+│   ├── imap_part05.svg
+│   ├── imap_part06.svg
+│   ├── imap_part07.svg
+│   ├── imap_part08.svg
+│   ├── imap_part09.svg
+│   ├── imap_part10.svg
+│   ├── imap_part11.svg
+│   ├── imap_part12.svg
+│   ├── imap_partX.svg
+│   └── planning.png
+├── imap-overview.rds
+├── imap-project-overview.Rproj
+├── index.Rmd
+├── library
+│   ├── apa.csl
+│   ├── imap.bib
+│   ├── packages.bib
+│   └── references.bib
+├── output
+├── renv
+│   ├── activate.R
+│   ├── library
+│   ├── settings.json
+│   └── staging
+├── renv.lock
+├── reports
+│   ├── project_tree.txt
+│   └── snakemake_report.html
+├── resources
+│   └── session_info.txt
+├── style.css
+└── workflow
+    └── Snakefile
+
+16 directories, 91 files

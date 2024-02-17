@@ -103,6 +103,9 @@ href="https://tmbuza.github.io/imap-snakemake-workflows/">In-progress</a></td>
 </table>
 </div>
 
+# IMAP-Overview Rulegraph
+
+![](dags/rulegraph.svg)
 
 # Session Information
 

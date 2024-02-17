@@ -4,6 +4,10 @@
 .Ruserdata
 .Rapp.history
 
+.snakemake
+
 .DS_Store
 
-docs/search.json
+data/*
+images/*
+sample_gps_files/*
