@@ -53,13 +53,13 @@ source("_common.R")
 <br>
 <br>
 
-Greetings, fellow explorers! 
+Greetings, fellow explorers!
 
-Step into the captivating world of microbiome data analysis with our groundbreaking series, the IMAP Practical User Guide. We extend a warm invitation to embark on a journey that transcends conventional analysis methods, empowering you with practical guides to unravel the complexities of microbial composition within any given sample.
+Step into the captivating world of microbiome data analysis with our groundbreaking series, the IMAP (Integrated Microbiome Analysis Pipelines) Practical User Guides. We warmly invite you to embark on a journey that transcends conventional analysis methods, empowering you with these practical guides to unravel the complexities of microbial composition within any given sample.
 
-In the Microbiome Explorer's Practical User Guides, we've meticulously divided the eBook into standalone parts, each dedicated to comprehensively exploring different facets of microbiome analysis. These parts act as invaluable tools, arming researchers with the knowledge and insights to navigate the intricate dynamics of microbial communities.
+In this multi-chapter project on microbiome data analysis, we delve into a journey of exploration and discovery. The eBook is thoughtfully divided into standalone parts, each dedicated to comprehensively exploring different facets of microbiome analysis. These individual "Practical User Guides" serve as invaluable tools, arming researchers with the knowledge and insights to navigate the intricate dynamics of microbial communities. Our analysis is not static but an ongoing endeavor that adapts and grows with each new piece of knowledge acquired. As you navigate through the guides, anticipate continuous updates and refinements based on the latest findings, reflecting the dynamic nature of our investigation.
 
-Our mission is clear: to transform intricate data into actionable knowledge and propel the understanding of microbial communities to unprecedented frontiers. Through cutting-edge techniques and methodologies, the SMDA series aims to decode the role of microorganisms in disease, health, and their environmental impact, offering integrated solutions for a holistic understanding of microbial community biodiversity.
+Our mission is clear: to transform intricate data into actionable knowledge and propel the understanding of microbial communities to unprecedented frontiers. Through cutting-edge techniques and methodologies, the IMAP series aims to decode the role of microorganisms in disease, health, and their environmental impact, offering integrated solutions for a holistic understanding of microbial community biodiversity.
 
 So, are you ready to unlock the mysteries concealed within microbiome data? Join us in this exhilarating journey of discovery! Let's embrace the challenges and opportunities that await us in the fascinating realm of microbiome data analysis.
 
