@@ -51,6 +51,8 @@ description: |
 <br>
 <br>
 
+## Unlock Microbial Mysteries with IMAP Practical User Guides {-}
+
 Greetings, fellow explorers!
 
 Step into the captivating world of microbiome data analysis with our groundbreaking series, the IMAP (Integrated Microbiome Analysis Pipelines) Practical User Guides. We warmly invite you to embark on a journey that transcends conventional analysis methods, empowering you with these practical guides to unravel the complexities of microbial composition within any given sample.
