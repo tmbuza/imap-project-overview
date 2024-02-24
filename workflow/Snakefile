@@ -52,7 +52,7 @@ rule snakemake_report:
     output:
         "reports/snakemake_report.html"
     shell:
-        "snakemake --keep-going --use-conda --report {output[0]}"
+        "snakemake --unlock --use-conda --report {output[0]}"
 
 
 rule render_bs4_book:
