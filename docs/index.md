@@ -47,7 +47,7 @@ description: |
 
 <br>
 <br>
-![Book cover](images/planning.png)
+![](images/planning.png)
 <br>
 <br>
 
