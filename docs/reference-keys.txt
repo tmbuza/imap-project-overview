@@ -1,4 +1,3 @@
-author-accomplishments-and-expertise
 imap-framework
 primary-objectives
 environments-for-streamlined-analysis

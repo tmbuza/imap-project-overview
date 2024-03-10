@@ -36,7 +36,7 @@ Outputs from RStudio, Jupyter Notebook, and Snakemake workflows converge in a fi
 
 A pivotal aspect of our methodology involves the utilization of Snakemake rule graphs, serving as invaluable tools to enhance transparency in our computational analyses. These graphical representations provide a lucid and intuitive portrayal of the logical sequence of tasks, contributing to a heightened understanding for users, readers, collaborators, or reviewers.
 
-We encourage readers to make use of the Snakemake rule graphs featured in the appendix section of chapters dedicated to intensive computational analyses. These visual aids stand as comprehensive resources, aiding in the navigation and comprehension of the intricate structure and dependencies embedded within each analysis.
+We encourage readers to make use of the Snakemake rule graphs featured in the appendix section of IMAP chapters dedicated to intensive computational analyses. These visual aids stand as comprehensive resources, aiding in the navigation and comprehension of the intricate structure and dependencies embedded within each analysis.
 
 
 ## Considerations for Incompatibility
