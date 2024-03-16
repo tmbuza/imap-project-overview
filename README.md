@@ -18,8 +18,7 @@
 | [IMAP-PART 06](https://github.com/tmbuza/imap-qiime2-bioinformatics/) | Microbial profiling using QIIME2 and Snakemake workflows | [In-progress](https://tmbuza.github.io/imap-qiime2-bioinformatics/) |
 | [IMAP-PART 07](https://github.com/tmbuza/imap-data-preparation/) | Processing Output from 16S-Based microbiome bioinformatics pipelines| [In-progress](https://tmbuza.github.io/imap-data-preparation/) |
 | [IMAP-PART 08](https://github.com/tmbuza/imap-data-exploration/) | Exploratory Analysis of 16S-Based Microbiome Processed Data | [In-progress](https://tmbuza.github.io/imap-data-exploration/) |
-| [IMAP-ML](https://github.com/tmbuza/imap-machine-learning/) | Predictive Modeling of Microbiome Data | [In-progress](https://tmbuza.github.io/imap-machine-learning/) |
-| [IMAP-SUMMARY](https://github.com/tmbuza/imap-snakemake-workflows/) | Summary of snakemake workflows for microbiome data analysis | [In-progress](https://tmbuza.github.io/imap-snakemake-workflows/) |
+
 
 
 ## Session information
