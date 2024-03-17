@@ -7,8 +7,8 @@
  language (EN)
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
- tz       Africa/Dar_es_Salaam
  date     2024-03-17
+ pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version date (UTC) lib source
@@ -38,5 +38,6 @@
  xml2          1.3.6   2023-12-04 [1] CRAN (R 4.3.1)
  yaml          2.3.8   2023-12-11 [1] CRAN (R 4.3.1)
 
+ [1] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
 
 ──────────────────────────────────────────────────────────────────────────────
