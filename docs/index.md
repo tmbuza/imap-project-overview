@@ -3,7 +3,7 @@ title: "<big>IMAP:</big> Integrated Microbiome Analysis Pipelines"
 permalink: /imap-overview/
 subtitle: "End-to-End Practical User Guides Using Integrated Approaches"
 date:
-- <b>2024-03-17</b>
+- <b>2024-04-24</b>
 author: Teresia Mrema-Buza
 site: bookdown::bookdown_site
 documentclass: book
@@ -44,7 +44,7 @@ description: |
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
-# <u>IMAP-Overview</u>: Integrated Microbiome Practical User Guides {-#imap-overview}
+# <u>IMAP-Guides</u>: Integrated Microbiome Practical User Guides {-#imap-overview}
 
 <br>
 <br>
@@ -52,7 +52,7 @@ description: |
 <br>
 <br>
 
-## Unlock Microbial Mysteries with IMAP Practical User Guides {-}
+## Welcome to IMAP Practical User Guides {-}
 
 Greetings, fellow explorers!
 
