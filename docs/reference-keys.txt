@@ -13,5 +13,4 @@ imap-part06
 imap-part07
 imap-part08
 imap-github-repos
-imap-overview-rulegraph
 session-information
