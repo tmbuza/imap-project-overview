@@ -7,12 +7,12 @@
  language (EN)
  collate  en_US.UTF-8
  ctype    en_US.UTF-8
- date     2024-04-26
+ date     2024-05-06
  pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version date (UTC) lib source
- bookdown      0.37    2023-12-01 [1] CRAN (R 4.3.1)
+ bookdown      0.39    2024-04-15 [1] CRAN (R 4.3.1)
  bslib         0.6.1   2023-11-28 [1] CRAN (R 4.3.1)
  cachem        1.0.8   2023-05-01 [1] CRAN (R 4.3.0)
  cli           3.6.2   2023-12-11 [1] CRAN (R 4.3.1)

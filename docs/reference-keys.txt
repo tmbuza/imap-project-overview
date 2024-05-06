@@ -1,4 +1,3 @@
-imap-framework
 primary-objectives
 environments-for-streamlined-analysis
 analysis-outputs
@@ -12,5 +11,7 @@ imap-part05
 imap-part06
 imap-part07
 imap-part08
+imap-part09
+imap-part10
 imap-github-repos
 session-information

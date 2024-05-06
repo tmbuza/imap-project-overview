@@ -1,6 +1,6 @@
 # (PART) IMAP FRAMEWORK {-}
 
-# Introduction to IMAP Framework {#imap-framework}
+# Introduction to IMAP Framework {-#imap-framework}
 
 Welcome to the IMAP ("Integrated Microbiome Analysis Pipelines") framework—a meticulously crafted structure empowering researchers, scientists, developers, and enthusiasts in conducting thorough analyses of intricate microbiome data. Each chapter within IMAP stands as an independent GitHub repository (repo), offering a dedicated space for focused exploration and understanding.
 
@@ -53,7 +53,7 @@ In this chapter, we embark on the practical journey of equipping you with the es
 
 
 # (PART) IMAP-PART 02 {-} 
-# Microbiome sample metadata {#imap-part02}
+# Microbiome Sample Metadata {#imap-part02}
 
 ![](images/imap_part02.svg)
 
@@ -90,23 +90,23 @@ A more detailed description is described in [IMAP-PART 04](https://tmbuza.github
 
 
 # (PART) IMAP-PART 05 {-} 
-# Microbial profiling using Mothur {#imap-part05}
+# Microbial Profiling Using Mothur {#imap-part05}
 
 ![](images/imap_part05.svg)
 
-```{block, type="infoicon", echo=TRUE}
+
 Mothur is a software package designed for the analysis of microbial community data obtained from DNA sequencing. Briefly:
 
 - The workflow involves preprocessing raw sequencing data by removing low-quality reads and contaminants.
 - Mothur aligns the high-quality reads to a reference database, such as [SILVA alignments](https://www.arb-silva.de/), to assign taxonomic information.
 - Clustering algorithms in Mothur group similar sequences into operational taxonomic units (OTUs) representing microbial species or taxonomic units.
 
-In summary, microbial profiling using Mothur provides insights into the composition, structure, and function of microbial ecosystems. A more detailed description is described in [IMAP-PART 05](https://tmbuza.github.io/imap-bioinformatics-mothurs/)
-```
+In summary, microbial profiling using Mothur provides insights into the composition, structure, and function of microbial ecosystems. A more detailed description is described in [IMAP-PART 05](https://tmbuza.github.io/imap-mothur-bioinformatics/)
+
 
 
 # (PART) IMAP-PART 06 {-}
-# Microbial profiling using QIIME2 {#imap-part06}
+# Microbial Profiling Using QIIME2 {#imap-part06}
 
 ![](images/imap_part06.svg)
 
@@ -115,11 +115,11 @@ QIIME 2 (Quantitative Insights Into Microbial Ecology 2) is an open-source platf
 - It offers a plugin-based architecture, various tools for data import, preprocessing, processing, and analysis, and emphasizes reproducibility. 
 - It is designed to perform a wide range of bioinformatics tasks and provide a comprehensive platform for microbiome research.
 
- A more detailed description is described in [IMAP-PART 06](https://tmbuza.github.io/imap-bioinformatics-qiime2/)
+ A more detailed description is described in [IMAP-PART 06](https://tmbuza.github.io/imap-qiime2-bioinformatics/)
 
 
 # (PART) IMAP-PART 07 {-}
-# Data preprocessing {#imap-part07}
+# Data Preparation {#imap-part07}
 
 ![](images/imap_part07.svg)
 
@@ -134,7 +134,7 @@ Processing the OTU (Operational Taxonomic Unit) table is an important step in pr
 
 Performing necessary data cleaning steps to remove any irrelevant or problematic entries. This may involve removing duplicate entries, handling missing values, or addressing any formatting issues.
 
-A more detailed description is described in [IMAP-PART07](https://tmbuza.github.io/imap-data-processing/)
+A more detailed description is described in [IMAP-PART07](https://tmbuza.github.io/imap-data-preparation/)
  
 
 # (PART) IMAP-PART 08 {-}
@@ -144,4 +144,25 @@ A more detailed description is described in [IMAP-PART07](https://tmbuza.github.
 
 Exploring microbiome data embedded with sample metadata can help researchers enables researchers to uncover valuable insights about sample characteristics and relationships. 
 
- A more detailed description is described in [IMAP-PART 08](https://tmbuza.github.io/imap-data-visualization/)
+A more detailed description is described in [IMAP-PART 08](https://tmbuza.github.io/imap-data-visualization/)
+
+
+# (PART) IMAP-PART 09 {-}
+# Statistical Analysis {#imap-part09}
+
+
+<!-- ![](images/imap_part09.svg) -->
+
+This section focuses on the statistical analysis of processed microbiome data. It includes a range of statistical techniques to identify patterns, associations, and differences within microbial communities, providing valuable insights into their composition and dynamics.
+
+A more detailed description is described in [IMAP-PART 09](https://tmbuza.github.io/imap-statistical-analysis/)
+
+
+# (PART) IMAP-PART 10 {-}
+# Machine-Learning {#imap-part10}
+
+<!-- ![](images/imap_part10.svg) -->
+
+In this section, machine learning techniques are applied to processed microbiome data to uncover complex patterns, predict microbial behavior, and identify key factors influencing community dynamics. Through advanced algorithms and predictive modeling, machine learning enhances our understanding of microbial ecosystems and their interactions.
+
+A more detailed description is described in [IMAP-PART 10](https://tmbuza.github.io/imap-machine-learning/)
