@@ -8,10 +8,10 @@ GitHub Repo: URL: https://github.com/tmbuza/imap-project-overview/ <br>
 
 GitHub Pages: URL: https://tmbuza.github.io/imap-project-overview/
 
-## Primary objectives
+## Primary objectives {-}
 Our primary objectives revolve around reproducibility, clarity, and efficiency. We understand the challenges inherent in microbiome data analysis and aim to equip you with the tools and strategies necessary to navigate this complex landscape with confidence.
 
-## Environments for Streamlined Analysis
+## Environments for Streamlined Analysis {-}
 
 Microbiome data analysis encompasses a diverse set of tools and platforms, from R and Python for statistical analysis to Snakemake for workflow management, and GitHub Actions for continuous integration and deployment. To streamline this process and ensure reproducibility, we adopt a strategy of managing these tools within unified environments.
 
@@ -23,7 +23,7 @@ Microbiome data analysis encompasses a diverse set of tools and platforms, from 
 
 - **GitHub Actions for Continuous Integration and Deployment:** Learn how we utilize GitHub Actions to automate continuous integration and deployment processes. This ensures the consistent and automated testing, building, and deployment of our microbiome data analysis workflows, contributing to a more efficient and reliable development pipeline.
 
-## Analysis Outputs
+## Analysis Outputs {-}
 
 Outputs from RStudio, Jupyter Notebook, and Snakemake workflows converge in a final HTML report, serving as the culmination of our analytical efforts.
 
@@ -32,14 +32,14 @@ Outputs from RStudio, Jupyter Notebook, and Snakemake workflows converge in a fi
 - **Efficient Collaboration:** Discover how consolidating outputs enhances collaboration, enabling team members to easily reproduce and build upon the analysis.
 
 
-## Snakemake Rule Graph: A Tool for Transparency
+## Snakemake Rule Graph: A Tool for Transparency {-}
 
 A pivotal aspect of our methodology involves the utilization of Snakemake rule graphs, serving as invaluable tools to enhance transparency in our computational analyses. These graphical representations provide a lucid and intuitive portrayal of the logical sequence of tasks, contributing to a heightened understanding for users, readers, collaborators, or reviewers.
 
 We encourage readers to make use of the Snakemake rule graphs featured in the appendix section of IMAP chapters dedicated to intensive computational analyses. These visual aids stand as comprehensive resources, aiding in the navigation and comprehension of the intricate structure and dependencies embedded within each analysis.
 
 
-## Considerations for Incompatibility
+## Considerations for Incompatibility {-}
 
 While advocating for a unified environment, we acknowledge that certain packages may be incompatible with others. We offer guidance on handling such scenarios, ensuring that potential conflicts are addressed with minimal disruption to the analysis process.
 
