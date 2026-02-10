@@ -1,14 +1,21 @@
-# IMAP Project Overview
+# iMAP Project Overview
 
-Welcome to the IMAP (Integrated Microbiome Analysis Pipeline) project overview repository! This repository serves as a central hub providing a comprehensive overview of the IMAP project, which aims to streamline and simplify microbiome data analysis through a series of interconnected repositories.
+This repository serves as the central entry point for the **iMAP (Integrated Microbiome Analysis Pipeline)**, a modular microbiome analysis framework published in *BMC Bioinformatics* (2019).
 
-## About IMAP
+Following publication, the original iMAP workflow was decomposed into step-based repositories to improve clarity, reproducibility, and reuse. Each repository corresponds to a distinct stage of the microbiome analysis lifecycle, from data acquisition and processing to exploration, statistical analysis, and
+downstream modeling.
 
-The Integrated Microbiome Analysis Pipeline (IMAP) project is a collection of repositories focused on various aspects of microbiome data analysis. Each repository within the IMAP project addresses a specific step in the microbiome analysis workflow, ranging from software requirements and sample metadata handling to data processing and exploratory analysis.
+**Start here** if you want to understand how the full iMAP pipeline fits together.
+
+For readers primarily interested in **result interpretation and visualization**, the core downstream components are:
+- **PART 08 – Exploratory Analysis:** visualization and exploratory reasoning on processed microbiome data
+- **PART 09 – Statistical Analysis:** statistical testing and inference on microbiome features
+
+This overview repository provides the routing structure that connects all iMAP components and links each stage to its corresponding documentation.
 
 ## Repositories Overview
 
-Below is a summary of the eight repositories comprising the IMAP project:
+Below is a summary of the ten repositories comprising the iMAP project. Each repository represents a distinct stage of the workflow; some components are more complete than others, but all are included to document the full analytical structure of the pipeline.
 
 | Repository | Description | Documentation Link |
 |------------|-------------|---------------------|
@@ -20,17 +27,14 @@ Below is a summary of the eight repositories comprising the IMAP project:
 | [PART 06](https://github.com/tmbuza/imap-bioinformatics-qiime2/) | Microbial profiling using QIIME2 and Snakemake workflows | [Documentation](https://tmbuza.github.io/imap-qiime2-bioinformatics/) |
 | [PART 07](https://github.com/tmbuza/imap-data-processing/) | Processing Output from 16S-Based microbiome bioinformatics pipelines | [Documentation](https://tmbuza.github.io/imap-data-preparation/) |
 | [PART 08](https://github.com/tmbuza/imap-exploratory-analysis/) | Exploratory Analysis of 16S-Based Microbiome Processed Data | [Documentation](https://tmbuza.github.io/imap-data-exploration/) |
-| [PART 09](https://github.com/tmbuza/imap-statistical-analysis//) | Statistical analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-statistical-analysis/) |
+| [PART 09](https://github.com/tmbuza/imap-statistical-analysis/) | Statistical analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-statistical-analysis/) |
 | [PART 10](https://github.com/tmbuza/imap-machine-learning/) | Machine learning analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-machine-learning/) |
 
-PART 09	Statistical analysis of processed 16S-based microbiome data	Link
-PART 10	Machine learning analysis of processed 16S-based microbiome data	Link
 ## Getting Started
 
-To explore the IMAP project in more detail, simply click on the provided links for each repository. Whether you're new to microbiome analysis or a seasoned researcher, the IMAP project offers valuable resources and tools to enhance your microbiome data analysis workflows.
+To explore the iMAP project in more detail, simply click on the provided links for each repository. Whether you're new to microbiome analysis or a seasoned researcher, the iMAP project offers valuable resources and tools to enhance your microbiome data analysis workflows.
 
-We hope you find the IMAP project helpful and informative. Happy analyzing!
-
+We hope you find the iMAP project helpful and informative. Happy analyzing!
 
 
 ## Session information
