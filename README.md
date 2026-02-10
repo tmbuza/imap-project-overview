@@ -20,7 +20,11 @@ Below is a summary of the eight repositories comprising the IMAP project:
 | [PART 06](https://github.com/tmbuza/imap-bioinformatics-qiime2/) | Microbial profiling using QIIME2 and Snakemake workflows | [Documentation](https://tmbuza.github.io/imap-qiime2-bioinformatics/) |
 | [PART 07](https://github.com/tmbuza/imap-data-processing/) | Processing Output from 16S-Based microbiome bioinformatics pipelines | [Documentation](https://tmbuza.github.io/imap-data-preparation/) |
 | [PART 08](https://github.com/tmbuza/imap-exploratory-analysis/) | Exploratory Analysis of 16S-Based Microbiome Processed Data | [Documentation](https://tmbuza.github.io/imap-data-exploration/) |
+| [PART 09](https://github.com/tmbuza/imap-statistical-analysis//) | Statistical analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-statistical-analysis/) |
+| [PART 10](https://github.com/tmbuza/imap-machine-learning/) | Machine learning analysis of processed 16S-based microbiome data | [Documentation](https://https://tmbuza.github.io/imap-machine-learning/) |
 
+PART 09	Statistical analysis of processed 16S-based microbiome data	Link
+PART 10	Machine learning analysis of processed 16S-based microbiome data	Link
 ## Getting Started
 
 To explore the IMAP project in more detail, simply click on the provided links for each repository. Whether you're new to microbiome analysis or a seasoned researcher, the IMAP project offers valuable resources and tools to enhance your microbiome data analysis workflows.
