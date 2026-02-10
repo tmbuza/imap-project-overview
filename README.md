@@ -21,7 +21,7 @@ Below is a summary of the eight repositories comprising the IMAP project:
 | [PART 07](https://github.com/tmbuza/imap-data-processing/) | Processing Output from 16S-Based microbiome bioinformatics pipelines | [Documentation](https://tmbuza.github.io/imap-data-preparation/) |
 | [PART 08](https://github.com/tmbuza/imap-exploratory-analysis/) | Exploratory Analysis of 16S-Based Microbiome Processed Data | [Documentation](https://tmbuza.github.io/imap-data-exploration/) |
 | [PART 09](https://github.com/tmbuza/imap-statistical-analysis//) | Statistical analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-statistical-analysis/) |
-| [PART 10](https://github.com/tmbuza/imap-machine-learning/) | Machine learning analysis of processed 16S-based microbiome data | [Documentation](https://https://tmbuza.github.io/imap-machine-learning/) |
+| [PART 10](https://github.com/tmbuza/imap-machine-learning/) | Machine learning analysis of processed 16S-based microbiome data | [Documentation](https://tmbuza.github.io/imap-machine-learning/) |
 
 PART 09	Statistical analysis of processed 16S-based microbiome data	Link
 PART 10	Machine learning analysis of processed 16S-based microbiome data	Link
